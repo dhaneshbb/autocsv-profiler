@@ -1,0 +1,46 @@
+repos:
+  # Essential code formatting
+  - repo: https://github.com/psf/black
+    rev: 25.1.0
+    hooks:
+      - id: black
+        args: [--line-length=88]
+
+  # Import sorting
+  - repo: https://github.com/pycqa/isort
+    rev: 5.13.2
+    hooks:
+      - id: isort
+        args: [--profile=black]
+
+  # Type checking - Disabled due to encoding issues and pandas type incompatibilities
+  # Run manually with: mypy src/autocsv_profiler/
+  # - repo: https://github.com/pre-commit/mirrors-mypy
+  #   rev: v1.16.0
+  #   hooks:
+  #     - id: mypy
+  #       args: [--config-file=mypy.ini, --no-error-summary]
+  #       exclude: ^tests/
+  #       additional_dependencies: [
+  #         types-PyYAML,
+  #         types-tabulate,
+  #         pandas-stubs,
+  #       ]
+  #       verbose: true
+
+  # Linting
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.1.1
+    hooks:
+      - id: flake8
+        args: ["--max-line-length=88", "--extend-ignore=E203,E402,E501"]
+
+  # Basic file checks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-toml
+      - id: check-merge-conflict
