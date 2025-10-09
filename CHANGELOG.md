@@ -94,7 +94,7 @@ All notable changes to AutoCSV Profiler will be documented in this file
 ## [1.0.0] - 2025-04-09
 
 ### Added - Initial Release
-- Multi-environment conda-based architecture
+- Initial release with multi-virtual environment support
 - Core analysis modules:
   - auto_csv_profiler.py - Statistical analysis
   - profile_ydata_profiling_report.py - YData profiling reports
