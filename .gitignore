@@ -227,7 +227,6 @@ distinct_values_count_by_dtype.html
 *.pkl
 
 # Generated Images and Plots
-*.png
 *.jpg
 *.jpeg
 *.pdf
@@ -238,7 +237,6 @@ distinct_values_count_by_dtype.html
 !assets/*.png
 
 # Text Output Files
-*.txt
 !README.txt
 !LICENSE.txt
 
