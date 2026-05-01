@@ -1,6 +1,9 @@
 <h1 align="center">AutoCSV Profiler</h1>
 
 <p align="center">
+  <a href="https://pepy.tech/projects/autocsv-profiler">
+    <img src="https://static.pepy.tech/personalized-badge/autocsv-profiler?period=total&units=NONE&left_color=BLACK&right_color=GREEN&left_text=downloads" alt="PyPI Downloads">
+  </a>  
   <a href="https://pypi.org/project/autocsv-profiler/">
     <img src="https://badge.fury.io/py/autocsv-profiler.svg" alt="PyPI version">
   </a>
