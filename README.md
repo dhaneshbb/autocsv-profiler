@@ -48,6 +48,10 @@ For detailed installation instructions, see the [User Guide](docs/user-guide.md#
 
 ## Quick Start
 
+<p align="center">
+  <img src="docs/png/autocsv-profiler.png" alt="AutoCSV Profiler overview">
+</p>
+
 ![Demo](docs/gif/demo.gif)
 
 **Interactive Mode:**
